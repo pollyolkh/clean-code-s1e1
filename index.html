@@ -12,23 +12,24 @@
 </head>
 
 <body>
-  <div class="header">
+  <header class="header">
     <img class="header__image"
-      src="./eisenhower-matrix.jpg">
+      src="./eisenhower-matrix.jpg"
+      alt="eisenhower matrix">
     <a class="header__link"
       href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
-  </div>
-  <div class="main">
-    <p class="add-item">
+  </header>
+  <main class="main">
+    <div class="add-item">
       <label class="add-item__label"
         for="new-task">Add Item</label>
-    <div class="task-wrapper">
-      <input class="task-wrapper__input task"
-        id="new-task"
-        type="text">
-      <button class="task-wrapper__add-button">Add</button>
+      <div class="task-wrapper">
+        <input class="task-wrapper__input task"
+          id="new-task"
+          type="text">
+        <button class="task-wrapper__add-button">Add</button>
+      </div>
     </div>
-    </p>
     <h3 class="main__title">Todo</h3>
     <ul class="incomplete-tasks">
       <li class="incomplete-tasks__list">
@@ -40,7 +41,8 @@
         <button class="incomplete-tasks__list__edit-button">Edit</button>
         <button class="incomplete-tasks__list__delete-button">
           <img class="incomplete-tasks__list__delete-button__image"
-            src="./remove.svg">
+            src="./remove.svg"
+            alt="delete button image">
         </button>
       </li>
       <li class="incomplete-tasks__edit-mode">
@@ -53,7 +55,8 @@
         <button class="incomplete-tasks__edit-mode__edit-button">Save</button>
         <button class="incomplete-tasks__edit-mode__delete-button">
           <img class="incomplete-tasks__edit-mode__delete-button__image"
-            src="./remove.svg">
+            src="./remove.svg"
+            alt="delete button image">
         </button>
       </li>
     </ul>
@@ -69,11 +72,12 @@
         <button class="complete-tasks__list__edit-button">Edit</button>
         <button class="complete-tasks__list__delete-button">
           <img src="./remove.svg"
-          class="complete-tasks__list__delete-button__image">
+            class="complete-tasks__list__delete-button__image"
+            alt="delete button image">
         </button>
       </li>
     </ul>
-  </div>
+  </main>
   <script src="app.js"></script>
 </body>
 
